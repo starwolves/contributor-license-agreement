@@ -10,7 +10,7 @@ jobs:
     - name: Mirror + trigger CI
       uses: SvanBoxel/gitlab-mirror-and-ci-action@master
       with:
-        args: "https://gitlab.starwolves.io/starwolves/space"
+        args: "https://gitlab.starwolves.io/starwolves/contributor-license-agreement"
       env:
         FORCE_PUSH: "false"
         GITLAB_HOSTNAME: "gitlab.starwolves.io"
